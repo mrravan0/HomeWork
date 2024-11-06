@@ -16,9 +16,9 @@ header {
 }
 
 header div {
-    width: 9%;
+    width: 8%;
     float: left;
-    margin-left: 100px;
+    margin-left: 105px;
     margin-top: 20px;
 }
 
@@ -35,6 +35,7 @@ header div {
     border-radius: 10px;
     background-color: #F8F8F8;
     font-size: larger;
+    height: 50px;
 }
 
 .Image-2 select option {
@@ -46,6 +47,7 @@ header div {
     background-color: #8a89890e;
     border: 2px solid none;
     border-radius: 10px;
+    height: 50px;
 }
 
 input[type="text"] {
@@ -61,7 +63,8 @@ input[type="text"] {
     font-size: 105%;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     color: #747474;
-    
+    height: 50px;
+
 }
 
 .Image-3 {
@@ -70,28 +73,250 @@ input[type="text"] {
     border-radius: 50%;
 }
 
-.Image-5 p{
+.Image-5 p {
     font-size: large;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 /* Here is Nav part */
-nav{
+nav {
     min-width: 1300px;
     width: 100%;
     height: 80px;
+    margin-left: -45px;
 }
 
-.div-1{
+.div-1 {
     margin-left: 100px;
     color: black;
     font-size: 140%;
 }
 
-nav div{
+nav div {
     float: left;
     margin-top: 10px;
     font-size: 130%;
     color: #747474;
     padding-left: 50px;
 }
+
+/* Here is main and first-section Part */
+
+main {
+    width: 100%;
+    height: 700px;
+    background-image: url(./img/bread-background.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background: linear-gradient(rgba(255, 255, 255, 0.9), rgba(255, 255, 255, 0.9)), url(./img/bread-background.jpg);
+    min-width: 1800px;
+}
+
+.main-div1,
+.main-div2,
+.main-div3 {
+    float: left;
+}
+
+/* First-Div from main-Section  */
+.main-div1 {
+    width: 45%;
+    background-color: #E6F3FA;
+    height: 650px;
+    margin-left: 100px;
+    border: 2px solid none;
+    border-radius: 20px;
+    background-image: url(./img/smooth-fruit.png);
+    background-position: right;
+    background-repeat: no-repeat;
+    background-size: 40%;
+    margin-top: 25px;
+}
+
+.main-div1 p {
+    margin-left: 60px;
+    height: auto;
+    width: 60%;
+}
+
+.main-div1-p1 {
+    color: #FFC43F;
+    font-size: 250%;
+    padding-top: 40px;
+}
+
+.main-div-p2 {
+    font-size: 300%;
+}
+
+.main-div-p3 {
+    color: #747474;
+    font-size: larger;
+}
+
+.main-div-p4 {
+    font-size: x-large;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    border: 2px solid #747474;
+    width: 20% !important;
+    border-radius: 10px;
+    text-align: center;
+    height: 50px !important;
+    color: #464646;
+    line-height: 50px;
+}
+
+.main-div-p4:hover {
+    background-color: #118cf01e;
+    width: 160px !important;
+    height: 60px !important;
+    line-height: 60px;
+    box-shadow: 10px 10px 20px 5px #81a8bd;
+}
+
+.main-div2-p3:hover {
+    box-shadow: 10px 10px 20px 5px #809761;
+    height: 60px;
+    line-height: 60px;
+}
+
+.main-div3 .main-div2-p3:hover {
+    box-shadow: 10px 10px 20px 5px #cfa99f;
+}
+
+
+
+.main-div-p5,
+.main-div-p6,
+.main-div-p7 {
+    background-color: #FFC43F;
+    height: 17px;
+    margin: 5px;
+    margin-top: 90px;
+    float: left;
+    width: 2%;
+    margin-left: 350px;
+    border: 2px solid none;
+    border-radius: 50%;
+}
+
+.main-div-p6,
+.main-div-p7 {
+    margin-left: unset;
+    background-color: white;
+}
+
+/* Second-Div from Main-section */
+.main-div2,
+.main-div3 {
+    width: 35%;
+    background-color: red;
+    margin-left: 30px;
+    height: 310px;
+    border: 2px solid none;
+    border-radius: 20px;
+    margin-top: 25px;
+    background-color: #EEF5E5;
+    background-image: url(./img/vegetables.png);
+    background-position: right bottom;
+    background-repeat: no-repeat;
+}
+
+.main-div2 p,
+.main-div3 p {
+    margin-left: 50px;
+    width: 50%;
+}
+
+.main-div2-p1 {
+    font-size: 220%;
+    height: 55px;
+}
+
+.main-div2-p1 span {
+    color: #747474;
+    font-size: 55%;
+    font-variant: small-caps;
+    border-top: 2px solid;
+    padding-left: 100px;
+}
+
+.main-div3 {
+    background-color: #F9EBE7;
+    background-image: url(./img/breads.png);
+}
+
+.main-div2-p2 {
+    font-size: 220%;
+    height: 60px;
+}
+
+.main-div2-p3,
+.main-div2-p1 {
+    font-size: 140%;
+    border: 2px solid;
+    border-radius: 10px;
+    width: 25% !important;
+    text-align: center;
+    line-height: 45px;
+    height: 45px;
+    margin-top: 45px;
+    margin-left: 40px !important;
+}
+
+/* Here is second part Section */
+.main-section2{
+    margin-left: 100px;
+}
+
+.main-section2-div1 p {
+    width: 50%;
+    float: left;
+    font-size: 200%;
+}
+
+.main-section2-div1{
+    height: 80px;
+}
+
+.main-section2-div1 p:nth-of-type(2){
+  font-size: 150%;
+  font-weight: 600;
+  color: #747474;
+  text-align: right;
+  height: 60px;
+  line-height: 60px;
+}
+
+.main-section2-div2{
+    background-color: #ffff;
+    height: 50px !important;
+    width: 15%;
+    height: 200px !important;
+    float: left;
+    margin: 20px;
+    margin-left: 40px;
+    border: 2px solid none;
+    border-radius: 15px;
+    box-shadow:  10px 10px 15px 5px #a4c2d3;
+    color: #4f6774;
+    text-align: center;
+}
+
+.main-section2-div2:hover{
+    background-color:#3197ce28 ;
+}
+
+.main-section2-div2 p{
+    margin-top: 40px;
+    font-size: 150%;
+    font-weight: 500;
+}
+
+
+.main-section2-div2 img{
+    width: 14%;
+    padding-top: 40px;
+}
+
