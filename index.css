@@ -110,7 +110,7 @@ main {
     background-position: center;
     background-size: cover;
     background: linear-gradient(rgba(255, 255, 255, 0.9), rgba(255, 255, 255, 0.9)), url(./img/bread-background.jpg);
-    min-width: 1800px;
+    min-width: 1700px;
 }
 
 .main-div1,
@@ -266,8 +266,9 @@ main {
 }
 
 /* Here is second part Section */
-.main-section2{
+.main-section2 {
     margin-left: 100px;
+    min-width: 1350px;
 }
 
 .main-section2-div1 p {
@@ -276,20 +277,20 @@ main {
     font-size: 200%;
 }
 
-.main-section2-div1{
+.main-section2-div1 {
     height: 80px;
 }
 
-.main-section2-div1 p:nth-of-type(2){
-  font-size: 150%;
-  font-weight: 600;
-  color: #747474;
-  text-align: right;
-  height: 60px;
-  line-height: 60px;
+.main-section2-div1 p:nth-of-type(2) {
+    font-size: 150%;
+    font-weight: 600;
+    color: #747474;
+    text-align: right;
+    height: 60px;
+    line-height: 60px;
 }
 
-.main-section2-div2{
+.main-section2-div2 {
     background-color: #ffff;
     height: 50px !important;
     width: 15%;
@@ -299,24 +300,23 @@ main {
     margin-left: 40px;
     border: 2px solid none;
     border-radius: 15px;
-    box-shadow:  10px 10px 15px 5px #a4c2d3;
+    box-shadow: 10px 10px 15px 5px #a4c2d3;
     color: #4f6774;
     text-align: center;
 }
 
-.main-section2-div2:hover{
-    background-color:#3197ce28 ;
+.main-section2-div2:hover {
+    background-color: #3197ce28;
 }
 
-.main-section2-div2 p{
+.main-section2-div2 p {
     margin-top: 40px;
     font-size: 150%;
     font-weight: 500;
 }
 
 
-.main-section2-div2 img{
+.main-section2-div2 img {
     width: 14%;
     padding-top: 40px;
 }
-
